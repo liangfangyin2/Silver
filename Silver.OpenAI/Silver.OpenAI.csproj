@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageId>Silver.OpenAI</PackageId>
+	  <Title>OpenAI</Title>
+	  <Version>1.0.0</Version>
+	  <Authors>liangfy</Authors>
+	  <Description>
+		  OpenAI
+		  https://github.com/liangfangyin/Silver
+	  </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GTranslate" Version="2.1.6" />
+    <PackageReference Include="OpenAI" Version="1.7.2" />
+  </ItemGroup>
+
+</Project>

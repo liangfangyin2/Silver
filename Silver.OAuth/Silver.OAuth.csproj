@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>Silver.OAuth</PackageId>
+		<Title>OAuth</Title>
+		<Version>1.0.0</Version>
+		<Authors>liangfy</Authors>
+		<Description>
+			OAuth
+			https://github.com/liangfangyin/Silver
+		</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.4" />
+		<PackageReference Include="Peak.Lib.Basics" Version="1.0.6" />
+	</ItemGroup>
+</Project>
